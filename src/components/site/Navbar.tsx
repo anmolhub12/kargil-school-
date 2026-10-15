@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { nav, site } from "@/data/site";
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoAsset from "@/assets/logo-luxury.png.asset.json";
 import { Cta } from "./primitives";
 import { cn } from "@/lib/utils";
 
@@ -30,7 +30,7 @@ export function Navbar() {
             alt="Kargil Driving School logo"
             width={40}
             height={40}
-            className="size-10 shrink-0 rounded-xl bg-primary object-contain p-1"
+            className="size-10 shrink-0 object-contain drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]"
           />
           <span className="min-w-0 leading-none">
             <span className="block truncate font-display text-base font-black tracking-[0.16em] sm:text-lg">
